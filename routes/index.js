@@ -6,7 +6,7 @@ require('dotenv').config()
 var userModel = require('./users.js');
 const { name } = require('ejs');
 var router = express.Router();
-git
+
 passport.use(new GoogleStrategy({
   clientID: process.env['GOOGLE_CLIENT_ID'],
   clientSecret: process.env['GOOGLE_CLIENT_SECRET'],
